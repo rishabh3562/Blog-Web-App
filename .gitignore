@@ -21,10 +21,11 @@ yarn-debug.log*
 yarn-error.log*
 
 # backend
-backend/.env
-backend/node_modules
-backend/.pnp
-backend/.pnp.js
+/backend/.env
+/backend/node_modules
+/backend/.pnp
+/backend/.pnp.js
+
 
 # Editor-specific files
 .vscode/
@@ -69,4 +70,4 @@ log/
 
 # Cache and generated files
 .cache/
-node_modules/
+# node_modules/
