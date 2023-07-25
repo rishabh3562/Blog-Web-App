@@ -1,0 +1,103 @@
+.comment-section {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+.comment-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+.comment-section .heading {
+  text-align: center;
+  font-size: 3rem;
+}
+.add-comment {
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: 500;
+  background-color: #6c63ff;
+}
+.comment-avatar {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.comment-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-username {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.comment-text {
+  margin-bottom: 5px;
+}
+
+.comment-date {
+  font-size: 12px;
+  color: gray;
+}
+.comment-box {
+  border: 2px soild red !important;
+  width: 100%;
+}
+.comment-box .btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem !important;
+  flex: 1;
+}
+.comment-box button {
+  border: 2px soild red !important;
+  background-color: #6c63ff;
+  outline: none !important;
+  border: none;
+  color: white !important;
+  font-weight: 600;
+  font-family: "robert", sans-serif;
+  padding: 1rem 5rem;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.comment-box textarea {
+  width: 80% !important;
+  margin: auto !important;
+  height: 10rem;
+  border: 1px solid blanchedalmond;
+  padding: 1rem;
+  border-radius: 2rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  resize: none;
+  transition: 0.2s ease;
+}
+textarea:focus {
+  /* border-color: red; */
+  outline: none;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transform: scale(1.01);
+}
+textarea::placeholder {
+  font-size: medium;
+  font-family: "robert", sans-serif;
+}
+.comment-box .textarea {
+  width: 100% !important;
+  /* border: 2px red solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}

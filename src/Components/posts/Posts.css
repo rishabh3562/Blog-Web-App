@@ -1,0 +1,41 @@
+/* .posts {
+  flex: 9;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+} */
+/* CSS for a responsive grid of 3 posts */
+
+/* Define the grid container */
+.posts {
+  /* border: 2px solid red; */
+  /* width: fit-content; */
+  margin: auto;
+  /* max-width: 90%; */
+  display: grid;
+  grid-template-columns: repeat(
+    3,
+    minmax(300px, 1fr)
+  ); /* Responsive column layout */
+  grid-gap: 20px; /* Add some spacing between the grid items */
+}
+
+/* Define media queries for different screen sizes */
+@media only screen and (max-width: 1000px) {
+  /* For screens smaller than 767px */
+  .posts {
+    grid-template-columns: repeat(
+      2,
+      minmax(300px, 1fr)
+    ); /* Make the columns stack vertically */
+  }
+}
+@media only screen and (max-width: 680px) {
+  /* For screens smaller than 767px */
+  .posts {
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(100%, 1fr)
+    ); /* Make the columns stack vertically */
+  }
+}

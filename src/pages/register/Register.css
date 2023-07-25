@@ -1,0 +1,98 @@
+.register {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); */
+  background-size: cover;
+}
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  padding: 5rem;
+  border-radius: 2rem;
+  font-family: "Robert", sans-serif;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.form-wrapper .user-img img {
+  width: 10vw;
+  height: 15vh;
+}
+.registerTitle {
+  font-size: 3rem;
+  margin: 0.5rem 0;
+}
+
+.registerForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.registerForm > label {
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+.registerForm input {
+  width: 20vw;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+.registerInput {
+  width: 10vw;
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.registerInput:focus {
+  outline: none;
+  transform: scale(1.01);
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.registerButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #6c63ff;
+  color: white;
+  font-weight: 600;
+  font-family: "robert", sans-serif;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+.form-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+.form-footer {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #6c63ff;
+  cursor: pointer;
+}
+.registerLoginButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: #6c63ff;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
