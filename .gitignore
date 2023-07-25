@@ -70,4 +70,8 @@ log/
 
 # Cache and generated files
 .cache/
+<<<<<<< HEAD
 # node_modules/
+=======
+node_modules/
+>>>>>>> c35ff3f2378f2bbacfe7969027235414578d4875
